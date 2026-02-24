@@ -17,15 +17,19 @@ Clinical data was accessed from TCGA-BRCA. HER2 status was determined using immu
 **Figures:**
 
 ![Figure 1](midterm-breast-cancer/figures/figure1_kaplanmeier.png)
+
 *Figure 1. Kaplan-Meier survival plot shows that HER2- patients have an overall higher survival rate than HER2+ patients.*
 
 ![Figure 2](midterm-breast-cancer/figures/figure2_oncoplot.png)
+
 *Figure 2. Oncoplots show that HER2- patients have the most PIK3CA mutations, while HER2+ patients have the most TP53 mutations.*
 
 ![Figure 3](midterm-breast-cancer/figures/figure3_lollipop.png)
+
 *Figure 3. Lollipop plot shows that most mutations were missense mutations, and song HER2- and HER2+ patients, the mutations fell in the same place.*
 
 ![Figure 4](midterm-breast-cancer/figures/figure4_mafsurvival.png)
+
 *Figure 4. MAF survival plot attempts to show that mutated PIK3CA patients have a higher survival rate than the wild-type patients. Mutated N=133, WT N=240.*
 
 **Key Findings:**
@@ -40,7 +44,7 @@ The MAF survival analysis comparing PIK3CA mutant vs. wild-type patients had a r
 
 ---
 
-##Project 2: Survivor vs Non-Survivor Genomic Profiles in GBM (Final)
+## Project 2: Survivor vs Non-Survivor Genomic Profiles in GBM (Final)
 **Dataset:** TCGA-GBM
 **Question:** What genomic and transcriptomic differences distinguish GBM survivors from non-survivors?
 
@@ -50,15 +54,19 @@ Clinical data was accessed from TCGA-GBM. Kaplan-Meier survival plots were gener
 **Figures:**
 
 ![Figure 1](final-brain-cancer/figures/figure1_genderKM.png)
+
 *Figure 1. Kaplan-Meier survival plot suggests that survival rate does not differ with sex.*
 
 ![Figure 2](final-brain-cancer/figures/figure2_raceKM.png)
+
 *Figure 2. Kaplan-Meier survival plot suggests that white patients have the lowest survival rate, followed by black or African-American patients, and finally Asian patients.*
 
 ![Figure 3](final-brain-cancer/figures/figure3_enhanced_volcano.png)
+
 *Figure 3. Enhanced Volcano plot suggests that between male and females, there are statistically significant, down-regulated genes. Volcano plot differing by sex. Red markers demonstrate statistically significant differences in regulation.* 
 
 ![Figure 4](final-brain-cancer/figures/figure4_ageKM.png)
+
 *Figure 4. Kaplan-Meier survival plot suggests that survival rate does differ with age.*
 
 **Key Findings:**
@@ -75,14 +83,13 @@ The survivor/non-survivor classification used in this analysis define "survivors
 ---
 
 ## Repository Structure
-\'''
+\```
 ├── midterm-breast-cancer/     # Breast cancer PIK3CA analysis
 │   ├── midterm_joshuagabbay.R
 │   ├── midterm_lab_report.pdf
 │   └── figures/
 └── final-brain-cancer/        # GBM survivor analysis
     ├── Final.R
-    ├── methods.docx
     └── figures/
 \```
 
