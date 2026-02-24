@@ -78,12 +78,12 @@ Clinical data was accessed from TCGA-GBM. Kaplan-Meier survival plots were gener
 **Limitations:**
 The survivor/non-survivor classification used in this analysis define "survivors" as patients with living vital status at time of data collection, rather than survival past a defined time threshold (e.g., 12 or 24 months post-diagnosis). This conflation of "currently alive" with "long-term survivor" is a meaningful methodological limitation that affects the interpretation of the DESeq2 analysis. A more rigorous follow-up analysis would define survival using a fixed time cutoff. 
 
-**Tools:** R, Python, DESeq2, maftools, survminer, TCGAbiolinks, pandas, matplotlib, numpy
+**Tools:** R, DESeq2, maftools, survminer, TCGAbiolinks
 
 ---
 
 ## Repository Structure
-\```
+```
 ├── midterm-breast-cancer/     # Breast cancer PIK3CA analysis
 │   ├── midterm_joshuagabbay.R
 │   ├── midterm_lab_report.pdf
@@ -91,7 +91,7 @@ The survivor/non-survivor classification used in this analysis define "survivors
 └── final-brain-cancer/        # GBM survivor analysis
     ├── Final.R
     └── figures/
-\```
+```
 
 ## About
 Projects completed as part of QBIO 490 - Student-Led Research Group.
